@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 const app = express();
-const port = 3000;
+const port = 3001;
 var temp = "";
 var posCount = 1;
 var posLog = [{ lat: 23.89246790936712, lng: 121.54415209166598, order: posCount }];
